@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+/* Global Style */
+
+header {
+    width: 1300px;
+    height: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #535353;
+    font-weight: 500;
+    letter-spacing: 10px;
+    float: left;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 468px) {
+    .logo {
+        float: none;
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+
+.logo:hover {
+    color: #5068E1;
+    transition: ease-in-out 0.4s;
+}
+
+nav {
+    float: right;
+}
+
+@media only screen and (max-width: 468px) {
+    nav {
+        float: none;
+        text-align: center;
+    }
+}
+
+
+nav ul {
+    margin-top: 57px;
+}
+
+@media only screen and (max-width: 468px) {
+    nav ul {
+        margin-top: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+    }
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 468px) {
+    nav ul li {
+        margin-left: 0;
+    }
+
+    #mobile-nav-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+nav ul li a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #5E5E5E;
+}
+
+/* Header and Nav */
+
+.wrapper {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1300px) {
+  .wrapper {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    width: 98%;
+  }
+}
+
+#leon-illustration {
+    width: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 71px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  #leon-illustration {
+    margin-top: 41px;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  #leon-illustration {
+    margin-top: 21px;
+  }
+}
+
+
+#welcome-message {
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+    color: #707070;
+    line-height: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  #welcome-message {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  #welcome-message {
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
+
+.bold-blue-text {
+    font-weight: 500;
+    color: #5068E1;
+}
+/* Welcome Section */
+
+#my-work {
+  font-size: 25px;
+  color: #535353;
+  font-weight: 500;
+  letter-spacing: 10px;
+  margin-top: 100px;
+  margin-left: 8.4px;
+}
+
+@media only screen and (max-width: 468px) {
+  #my-work {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
