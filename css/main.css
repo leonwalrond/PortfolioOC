@@ -341,3 +341,115 @@ nav ul li a:hover {
   margin-bottom: 40px;
   line-height: 28px;
 }
+/* HOMEPAGE */
+.about-wrapper {
+  margin: 0 auto;
+  width: 800px;
+  max-width: 90%;
+}
+
+#purple-line {
+  width: 100px;
+  height: 5px;
+  background-color: #5068E1;
+  border-radius: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#about-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e3033;
+  word-spacing: 4px;
+  margin-top: 100px;
+  line-height: 30px;
+}
+
+.about-middle-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e3033;
+  word-spacing: 4px;
+  margin-top: 75px;
+  line-height: 30px;
+}
+
+.small-margin-top {
+  margin-top: 50px;
+}
+
+#about-bottom-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e3033;
+  word-spacing: 4px;
+  margin-top: 75px;
+  line-height: 30px;
+}
+/* About Page */
+
+#contact-me {
+  font-size: 40px;
+  font-weight: 500;
+  color: #272727;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+#thank-you {
+  font-size: 22px;
+  font-weight: 500;
+  color: #999;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact-wrapper {
+  width: 800px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #999;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 2px solid #ccc; /* Gray border */
+  border-radius: 3px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  color: #272727;
+  font-size: 16px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #5068E1;
+  color: white;
+  font-weight: 500;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  transition: ease all 0.5s;
+  padding: 14px 22px;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
